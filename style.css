@@ -449,3 +449,99 @@ ul{
 .description_img img{
     width: 100%;
 }
+
+/* certicate styling */
+
+.certicate_container{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.certicate{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.certificate_img{
+    flex-basis: 65%;
+}
+
+.certificate_img img{
+    width: 100%;
+}
+
+.certicate h2{
+    color: black;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.certicate p{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(44, 42, 42);
+    margin: 5px 0;
+}
+
+
+
+.post_category{
+    flex-basis: 32%;
+    padding: 10px;
+}
+
+.post_category h3 {
+    text-align: center ;
+    background: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.post_category div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+}
+
+/* comment section */
+.comment-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+
+.comment-form{
+   
+    
+}
+
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+    
+}
+
+
+.comment-form button{
+    margin: 10px 0;
+}
+.comment-form .ctn{
+    color: #f44336;
+    border: 1px solid #f44336;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.comment-form .ctn:hover{
+    color: whitesmoke;
+}
